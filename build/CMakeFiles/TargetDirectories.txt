@@ -1,0 +1,3 @@
+/home/raxim4uk/Projects/clearopen/build/CMakeFiles/openglprojects.dir
+/home/raxim4uk/Projects/clearopen/build/CMakeFiles/edit_cache.dir
+/home/raxim4uk/Projects/clearopen/build/CMakeFiles/rebuild_cache.dir
