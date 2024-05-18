@@ -69,28 +69,28 @@ include CMakeFiles/openglprojects.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/openglprojects.dir/flags.make
 
-CMakeFiles/openglprojects.dir/src/main.cpp.o: CMakeFiles/openglprojects.dir/flags.make
-CMakeFiles/openglprojects.dir/src/main.cpp.o: /home/raxim4uk/Projects/clearopen/src/main.cpp
-CMakeFiles/openglprojects.dir/src/main.cpp.o: CMakeFiles/openglprojects.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/raxim4uk/Projects/clearopen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/openglprojects.dir/src/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/openglprojects.dir/src/main.cpp.o -MF CMakeFiles/openglprojects.dir/src/main.cpp.o.d -o CMakeFiles/openglprojects.dir/src/main.cpp.o -c /home/raxim4uk/Projects/clearopen/src/main.cpp
+CMakeFiles/openglprojects.dir/src/game.cpp.o: CMakeFiles/openglprojects.dir/flags.make
+CMakeFiles/openglprojects.dir/src/game.cpp.o: /home/raxim4uk/Projects/clearopen/src/game.cpp
+CMakeFiles/openglprojects.dir/src/game.cpp.o: CMakeFiles/openglprojects.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/raxim4uk/Projects/clearopen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/openglprojects.dir/src/game.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/openglprojects.dir/src/game.cpp.o -MF CMakeFiles/openglprojects.dir/src/game.cpp.o.d -o CMakeFiles/openglprojects.dir/src/game.cpp.o -c /home/raxim4uk/Projects/clearopen/src/game.cpp
 
-CMakeFiles/openglprojects.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openglprojects.dir/src/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raxim4uk/Projects/clearopen/src/main.cpp > CMakeFiles/openglprojects.dir/src/main.cpp.i
+CMakeFiles/openglprojects.dir/src/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openglprojects.dir/src/game.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raxim4uk/Projects/clearopen/src/game.cpp > CMakeFiles/openglprojects.dir/src/game.cpp.i
 
-CMakeFiles/openglprojects.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openglprojects.dir/src/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raxim4uk/Projects/clearopen/src/main.cpp -o CMakeFiles/openglprojects.dir/src/main.cpp.s
+CMakeFiles/openglprojects.dir/src/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openglprojects.dir/src/game.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raxim4uk/Projects/clearopen/src/game.cpp -o CMakeFiles/openglprojects.dir/src/game.cpp.s
 
 # Object files for target openglprojects
 openglprojects_OBJECTS = \
-"CMakeFiles/openglprojects.dir/src/main.cpp.o"
+"CMakeFiles/openglprojects.dir/src/game.cpp.o"
 
 # External object files for target openglprojects
 openglprojects_EXTERNAL_OBJECTS =
 
-openglprojects: CMakeFiles/openglprojects.dir/src/main.cpp.o
+openglprojects: CMakeFiles/openglprojects.dir/src/game.cpp.o
 openglprojects: CMakeFiles/openglprojects.dir/build.make
 openglprojects: /usr/local/lib/libglut.so
 openglprojects: /usr/local/lib/libGLEW.so.2.1.0

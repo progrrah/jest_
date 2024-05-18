@@ -5,7 +5,7 @@ find_package(GLUT REQUIRED)
 find_package(GLEW REQUIRED)
 find_package(X11 REQUIRED)
 
-add_executable(openglprojects src/main.cpp)
+add_executable(openglprojects src/game.cpp)
 target_link_libraries(openglprojects OpenGL::GL GLUT::GLUT GLEW::GLEW X11::X11)
 
 set(GREAT_EXAMPLES_SRC GREAT_EXAMPLES/abgr.c GREAT_EXAMPLES/bitfont.c GREAT_EXAMPLES/cube.c GREAT_EXAMPLES/blender.c

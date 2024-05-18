@@ -24,18 +24,11 @@
     }
    ],
    "metadata": {},
-   "executionSummary": {
-    "timing": {
-     "startTime": 1712218562285,
-     "endTime": 1712218585201
-    },
-    "executionOrder": 2,
-    "success": true
-   }
+   "executionSummary": {}
   },
   {
    "kind": 2,
-   "value": "Plot[(Sin[3 x]^2 - Sin[1 x]^2)/x, {x,0,3}]",
+   "value": "",
    "languageId": "wolfram",
    "outputs": [
     {
@@ -57,14 +50,7 @@
     }
    ],
    "metadata": {},
-   "executionSummary": {
-    "timing": {
-     "startTime": 1712219551716,
-     "endTime": 1712219551923
-    },
-    "executionOrder": 10,
-    "success": true
-   }
+   "executionSummary": {}
   },
   {
    "kind": 2,
@@ -90,14 +76,7 @@
     }
    ],
    "metadata": {},
-   "executionSummary": {
-    "timing": {
-     "startTime": 1712218712218,
-     "endTime": 1712218712347
-    },
-    "executionOrder": 5,
-    "success": true
-   }
+   "executionSummary": {}
   },
   {
    "kind": 2,

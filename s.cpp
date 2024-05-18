@@ -3,34 +3,34 @@
 #include <string.h>
 #include <math.h> /* for cos(), sin(), and sqrt() */
 #include <GL/glut.h>
-#include "game_lib.hpp"
-// float WIDTH = 1. / 20;
-float ax = 0.f;
-float ay = 0.f;
-float bx = 1.0f;
-float by = 0.f;
-// float x0 = 0;
-// float y0 = 0;
-// int map[] = {10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
-//              10, 10, 10, 10, 10, 10, 10, 10, 10, 10};
-int map[] = {10, 7, 8, 10, 5};
-int N = sizeof(map) / sizeof(map[0]);
 void display();
+void output(GLfloat x, GLfloat y, char *text);
 int main(int argc, char **argv) {
   glutInit(&argc, argv);
   glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH);
   glutCreateWindow("gurevich");
+
   // glutInitWindowSize(800, 800);
-  glClearColor(1, 1, 1, 1.0);
+  //   glClearColor(1, 1, 1, 1.0);
   glutDisplayFunc(display);
   // glutKeyboardFunc(keyboard);
   glutMainLoop();
   return 0; /* ANSI C requires main to return int. */
 }
 void display() {
+  //   glLoadIdentity();
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-  glLoadIdentity();
-  drawMap(map, N, WIDTH);
-  drawGurevich(map);
+  glLineWidth(2.0);
+  output(200, 225, "This is antialiased.");
   glutSwapBuffers();
+}
+void output(GLfloat x, GLfloat y, char *text) {
+  char *p;
+
+  glPushMatrix();
+  glTranslatef(x, y, 0);
+  glColor3f(0.3, 1., 0.8);
+  for (p = text; *p; p++) glutStrokeCharacter(GLUT_STROKE_ROMAN, *p);
+  glPopMatrix();
+  //   glutPostRedisplay();
 }

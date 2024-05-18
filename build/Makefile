@@ -129,29 +129,29 @@ openglprojects/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/openglprojects.dir/build.make CMakeFiles/openglprojects.dir/build
 .PHONY : openglprojects/fast
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/game.o: src/game.cpp.o
+.PHONY : src/game.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/openglprojects.dir/build.make CMakeFiles/openglprojects.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/openglprojects.dir/build.make CMakeFiles/openglprojects.dir/src/game.cpp.o
+.PHONY : src/game.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/game.i: src/game.cpp.i
+.PHONY : src/game.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/openglprojects.dir/build.make CMakeFiles/openglprojects.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/openglprojects.dir/build.make CMakeFiles/openglprojects.dir/src/game.cpp.i
+.PHONY : src/game.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/game.s: src/game.cpp.s
+.PHONY : src/game.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/openglprojects.dir/build.make CMakeFiles/openglprojects.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/openglprojects.dir/build.make CMakeFiles/openglprojects.dir/src/game.cpp.s
+.PHONY : src/game.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... openglprojects"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/game.o"
+	@echo "... src/game.i"
+	@echo "... src/game.s"
 .PHONY : help
 
 

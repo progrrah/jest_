@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/raxim4uk/Projects/clearopen/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/openglprojects.dir/src/main.cpp.o -c /home/raxim4uk/Projects/clearopen/src/main.cpp",
-  "file": "/home/raxim4uk/Projects/clearopen/src/main.cpp",
-  "output": "CMakeFiles/openglprojects.dir/src/main.cpp.o"
+  "command": "/usr/bin/g++   -g -o CMakeFiles/openglprojects.dir/src/game.cpp.o -c /home/raxim4uk/Projects/clearopen/src/game.cpp",
+  "file": "/home/raxim4uk/Projects/clearopen/src/game.cpp",
+  "output": "CMakeFiles/openglprojects.dir/src/game.cpp.o"
 }
 ]

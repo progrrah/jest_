@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/openglprojects.dir/src/main.cpp.o"
-  "CMakeFiles/openglprojects.dir/src/main.cpp.o.d"
+  "CMakeFiles/openglprojects.dir/src/game.cpp.o"
+  "CMakeFiles/openglprojects.dir/src/game.cpp.o.d"
   "openglprojects"
   "openglprojects.pdb"
 )

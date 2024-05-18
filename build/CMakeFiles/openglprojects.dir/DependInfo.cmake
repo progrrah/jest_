@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/raxim4uk/Projects/clearopen/src/main.cpp" "CMakeFiles/openglprojects.dir/src/main.cpp.o" "gcc" "CMakeFiles/openglprojects.dir/src/main.cpp.o.d"
+  "/home/raxim4uk/Projects/clearopen/src/game.cpp" "CMakeFiles/openglprojects.dir/src/game.cpp.o" "gcc" "CMakeFiles/openglprojects.dir/src/game.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
